@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TabBar</string>
+    <string-array name="Spinner_sports">
+        <item>瑜珈 Yoga</item>
+        <item>肌耐力 Muscle endurance</item>
+        <item>運動 Sports</item>
+        <item>有氧 Aerobic</item>
+    </string-array>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

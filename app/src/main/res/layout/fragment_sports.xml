@@ -5,27 +5,44 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_gravity="center"
-    tools:context=".fragments.SportsFragment">
+    tools:context=".fragments2.FragmentStartYoga">
+
 
 <Spinner
-    android:id="@+id/spSports"
+    android:id="@+id/spinner"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="20sp"
     android:entries="@array/Spinner_sports"/>
-    
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:src="@drawable/yoga" />
+
+    <Button
+        android:id="@+id/btn_start1"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="160dp"
+        android:layout_marginTop="469dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Start"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="Sports"
-            android:textColor="@android:color/black"
-            android:textSize="24sp"/>
+
+
+
+
     </RelativeLayout>
 
 </FrameLayout>

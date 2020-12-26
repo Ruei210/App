@@ -9,9 +9,9 @@ tools:context=".FragmentAerobic">
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ae"
-        android:layout_gravity="center"/>
+        android:layout_height="382dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ae" />
 
     <Button
         android:id="@+id/btn_choice4"

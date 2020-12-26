@@ -1,7 +1,9 @@
 package com.example.tabbar
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.TextView
 import com.example.tabbar.fragments.FoodFragment
@@ -21,11 +23,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
-
-
-
         setUpTabs()
+
+
+
+
     }
 
     private fun setUpTabs(){

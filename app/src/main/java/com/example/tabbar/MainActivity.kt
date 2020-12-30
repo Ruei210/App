@@ -2,16 +2,12 @@ package com.example.tabbar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Spinner
-import android.widget.TextView
 import com.example.tabbar.fragments.FoodFragment
 import com.example.tabbar.fragments.HomeFragment
 import com.example.tabbar.fragments.OptionFragment
 import com.example.tabbar.fragments.SportsFragment
 import com.example.tabbar.fragments.adapters.ViewPagerAdapter
-import kotlinx.android.synthetic.*
 import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.fragment_sports.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -20,9 +16,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
-
-
 
 
         setUpTabs()

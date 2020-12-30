@@ -12,28 +12,27 @@
         android:id="@+id/appBarLayout"
         android:layout_alignParentBottom="true">
 
-    <com.google.android.material.tabs.TabLayout
-        android:id="@+id/tabs"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:tabTextAppearance="@style/CustomTabStyle"
-        app:tabBackground="@color/colorPrimaryDark"
-        app:tabGravity="fill"
-        app:tabInlineLabel="true"
-        app:tabMode="fixed"
-        app:tabTextColor="@android:color/white"/>
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabBackground="@color/colorPrimaryDark"
+            app:tabGravity="fill"
+            app:tabInlineLabel="true"
+            app:tabMode="fixed"
+            app:tabTextAppearance="@style/CustomTabStyle"
+            app:tabTextColor="@android:color/white" />
 
-</com.google.android.material.appbar.AppBarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
 
 
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/viewPager"
-        android:layout_above="@+id/appBarLayout"/>
+        android:layout_above="@+id/appBarLayout">
 
-
-
+    </androidx.viewpager.widget.ViewPager>
 
 
 </RelativeLayout>

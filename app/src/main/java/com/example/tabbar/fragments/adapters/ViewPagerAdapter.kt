@@ -13,7 +13,7 @@ class ViewPagerAdapter(supportFragmentManager: FragmentManager):FragmentPagerAda
     BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT) {
 
     private val mFragmentList = ArrayList<Fragment>()
-    private val mFragmentTitleList = ArrayList<String>()
+
 
     override fun getItem(position: Int): Fragment {
         return mFragmentList[position]

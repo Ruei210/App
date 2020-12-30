@@ -25,5 +25,4 @@ class SportsFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_sports, container, false)
     }
 
-
 }

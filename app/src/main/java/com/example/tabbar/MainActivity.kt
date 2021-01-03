@@ -3,6 +3,7 @@ package com.example.tabbar
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.PersistableBundle
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import android.widget.TextView
@@ -18,19 +19,15 @@ import kotlinx.android.synthetic.main.fragment_sports.*
 class MainActivity : AppCompatActivity() {
 
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
 
-
-        setUpTabs()
-
-
-
+          setUpTabs()
 
     }
+
 
     private fun setUpTabs(){
         val adapter = ViewPagerAdapter(supportFragmentManager)

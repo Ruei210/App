@@ -36,7 +36,7 @@ class SportsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         view.findViewById<Button>(R.id.btn_start1).setOnClickListener {
             val i = Intent(activity, MainActivity3::class.java)
-            activity?.startActivity(i)
+            activity!!.startActivity(i)
         }
     }
 

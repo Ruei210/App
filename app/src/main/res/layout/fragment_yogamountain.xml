@@ -43,24 +43,23 @@
                     tools:layout_editor_absoluteY="26dp" />
 
 
-
-        <TextView
-            android:id="@+id/textView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/colorPrimaryDark"
-            android:text="解說：\n雙腳併攏，身體站直\n肩膀上提後轉，使胸挺起(記得收肚肚)\n雙手自然垂下：）\n維持姿勢，感受身體為持平衡力道
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark"
+                    android:text="解說：\n雙腳併攏，身體站直\n肩膀上提後轉，使胸挺起(記得收肚肚)\n雙手自然垂下：）\n維持姿勢，感受身體為持平衡力道
 \n作用：\n讓自己維持中立，維持平衡\n備註：\n腳跟記得併攏\n時間：\n20~40s"
-            android:textColor="@android:color/white"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="481dp" />
+                    android:textColor="@android:color/white"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="481dp" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

@@ -7,7 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
-import com.example.tabbar.MainActivity2
+import com.example.tabbar.MainActivity3
 import com.example.tabbar.R
 
 
@@ -33,7 +33,7 @@ class SportsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         view.findViewById<Button>(R.id.btn_start1).setOnClickListener {
-            val i = Intent(activity, MainActivity2::class.java)
+            val i = Intent(activity, MainActivity3::class.java)
             activity?.startActivity(i)
         }
     }

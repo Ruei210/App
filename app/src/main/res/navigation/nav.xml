@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/yogachair"
+    tools:ignore="UnusedNavigation">
+    <fragment
+        android:id="@+id/yogachair"
+        android:name="com.example.tabbar.fragments.Yogachair"
+        android:label="fragment_yogachair"
+        tools:layout="@layout/fragment_yogachair" >
+        <action
+            android:id="@+id/action_yogachair_to_yogadog"
+            app:destination="@id/yogadog" />
+    </fragment>
+    <fragment
+        android:id="@+id/yogadog"
+        android:name="com.example.tabbar.fragments.Yogadog"
+        android:label="fragment_yogadog"
+        tools:layout="@layout/fragment_yogadog" >
+        <action
+            android:id="@+id/action_yogadog_to_yogamountain"
+            app:destination="@id/yogamountain" />
+        <action
+            android:id="@+id/action_yogadog_to_yogachair"
+            app:destination="@id/yogachair" />
+    </fragment>
+    <fragment
+        android:id="@+id/yogamountain"
+        android:name="com.example.tabbar.fragments.Yogamountain"
+        android:label="fragment_yogamountain"
+        tools:layout="@layout/fragment_yogamountain" >
+        <action
+            android:id="@+id/action_yogamountain_to_yogaplant"
+            app:destination="@id/yogaplant" />
+        <action
+            android:id="@+id/action_yogamountain_to_yogadog"
+            app:destination="@id/yogadog" />
+    </fragment>
+    <fragment
+        android:id="@+id/yogaplant"
+        android:name="com.example.tabbar.fragments.Yogaplant"
+        android:label="fragment_yogaplant"
+        tools:layout="@layout/fragment_yogaplant" >
+        <action
+            android:id="@+id/action_yogaplant_to_yogasnake"
+            app:destination="@id/yogasnake" />
+        <action
+            android:id="@+id/action_yogaplant_to_yogamountain"
+            app:destination="@id/yogamountain" />
+    </fragment>
+    <fragment
+        android:id="@+id/yogasnake"
+        android:name="com.example.tabbar.fragments.Yogasnake"
+        android:label="fragment_yogasnake"
+        tools:layout="@layout/fragment_yogasnake" >
+        <action
+            android:id="@+id/action_yogasnake_to_yogaplant"
+            app:destination="@id/yogaplant" />
+    </fragment>
+</navigation>

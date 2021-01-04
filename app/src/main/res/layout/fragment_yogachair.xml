@@ -55,7 +55,9 @@
             android:textSize="18dp"
             android:layout_gravity="bottom"
             android:layout_marginStart="300dp"
-            android:layout_marginLeft="300dp" />
+            android:layout_marginLeft="300dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"/>
 
 
     </FrameLayout>

@@ -5,18 +5,13 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:fillViewport="true"
-    tools:context=".MainActivity3">
+    tools:context=".fragments.Yogamountain">
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-           >
+            android:layout_height="wrap_content">
 
 
-                <androidx.viewpager2.widget.ViewPager2
-                    android:id="@+id/vp2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
 
                 <ImageView
                     android:id="@+id/iv_yoga1"
@@ -47,9 +42,34 @@
                     android:textColor="@android:color/white"
                     android:textSize="24sp"
                     android:textStyle="bold"
-                    android:layout_marginTop="430dp"
+                    android:layout_marginTop="430dp" />
 
-                    />
+                <Button
+                    android:id="@+id/backdog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="BACK"
+                    tools:layout_editor_absoluteY="178dp"
+                    android:textSize="18dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="200dp"
+                    android:layout_marginLeft="200dp"/>
+
+                <Button
+                    android:id="@+id/nextplant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:text="NEXT"
+                    android:textSize="18dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginStart="300dp"
+                    android:layout_marginLeft="300dp"/>
 
 
         </FrameLayout>

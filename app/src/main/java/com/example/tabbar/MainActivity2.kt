@@ -1,5 +1,6 @@
 package com.example.tabbar
 
+<<<<<<< HEAD
 import android.app.DatePickerDialog
 import android.os.Bundle
 import android.os.PersistableBundle
@@ -19,5 +20,14 @@ class MainActivity2 : AppCompatActivity(){
 
 
 
+=======
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class MainActivity2 : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main2)
+>>>>>>> origin/master
     }
 }

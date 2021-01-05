@@ -37,8 +37,8 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
                     android:background="@color/colorPrimaryDark"
-                    android:text="解說：\n雙腳併攏，身體站直\n肩膀上提後轉，使胸挺起(記得收肚肚)\n雙手自然垂下：）\n維持姿勢，感受身體為持平衡力道
-                        \n作用：\n讓自己維持中立，維持平衡\n備註：\n腳跟記得併攏\n時間：\n20~40s"
+                    android:text="解說：\n  雙腳併攏，身體站直\n  肩膀上提後轉，使胸挺起(記得收肚肚)\n  雙手自然垂下：）\n  維持姿勢，感受身體為持平衡力道
+                        \n作用：\n  讓自己維持中立，維持平衡\n備註：\n  腳跟記得併攏\n時間：\n  20~40s\n\n"
                     android:textColor="@android:color/white"
                     android:textSize="24sp"
                     android:textStyle="bold"

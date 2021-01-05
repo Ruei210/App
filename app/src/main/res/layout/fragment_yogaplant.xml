@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
-            android:text="解說：\n手掌與手臂貼地，腳往後放\n感覺腳踢著一面牆\n維持姿勢腹部撐起，感受身體核心出力\n作用：\n訓練核心肌群，達到瘦身效果：）\n備註：\n腹部一定要撐起不要垂下\n時間：\n20~40s"
+            android:text="解說：\n  手掌與手臂貼地，腳往後放\n  感覺腳踢著一面牆\n  維持姿勢腹部撐起，感受身體核心出力\n作用：\n  訓練核心肌群，達到瘦身效果：）\n備註：\n  腹部一定要撐起不要垂下\n時間：\n  20~40s\n\n"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"

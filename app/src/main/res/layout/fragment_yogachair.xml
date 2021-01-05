@@ -38,7 +38,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
-            android:text="解說：\n雙腳併攏，屁股後推下蹲\n雙手滑過地板往上\n下腹縮緊，視線看向大拇指\n作用：練腿力，還有翹臀吧：）\n備註：\n如果可以雙手合併\n時間：\n20~40s"
+            android:text="解說：\n  雙腳併攏，屁股後推下蹲\n  雙手滑過地板往上\n  下腹縮緊，視線看向大拇指\n作用：  練腿力，還有翹臀吧：）\n備註：\n  如果可以雙手合併\n時間：\n  20~40s\n\n"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"

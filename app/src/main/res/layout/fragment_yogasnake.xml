@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
-            android:text="解說：\n 手掌貼地，雙手移至胸部兩側\n 吸氣時，肩膀往後\n 肩頰骨夾緊，把自己撐起來\n作用：\n  讓身體伸展：）\n備註：\n  保持手肘夾像身體兩側\n時間：\n   20~40s"
+            android:text="解說：\n 手掌貼地，雙手移至胸部兩側\n 吸氣時，肩膀往後\n 肩頰骨夾緊，把自己撐起來\n作用：\n  讓身體伸展：）\n備註：\n  保持手肘夾像身體兩側\n時間：\n   20~40s\n\n"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"

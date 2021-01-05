@@ -35,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimaryDark"
-            android:text="解說：\n先手掌貼地將身體撐起\n腳踩向地板\n腿盡量伸直\n作用：拉筋（拉哪裡的筋自己看：）\n備註：\n盡量將背延伸，撐地的手掌盡量撐大\n時間：\n20~40s"
+            android:text="解說：\n  先手掌貼地將身體撐起\n  腳踩向地板\n  腿盡量伸直\n作用：  拉筋（拉哪裡的筋自己看：）\n備註：\n  盡量將背延伸，撐地的手掌盡量撐大\n時間：\n  20~40s\n\n"
             android:textColor="@android:color/white"
             android:textSize="24sp"
             android:textStyle="bold"

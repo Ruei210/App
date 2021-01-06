@@ -5,13 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".fragments.FoodFragment">
 
-    <Spinner
-        android:id="@+id/spinner_food"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20sp"
-        android:entries="@array/Spinner_food"
-        />
+
 
 
     <LinearLayout

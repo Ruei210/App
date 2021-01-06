@@ -8,12 +8,12 @@
     tools:context=".MainActivity">
 
 
-<Spinner
-    android:id="@+id/spinner"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="20sp"
-    android:entries="@array/Spinner_sports"/>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_margin="20sp"
+        android:entries="@array/Spinner_sports" />
 
     <ImageView
         android:id="@+id/imageView2"

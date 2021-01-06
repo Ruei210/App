@@ -6,6 +6,12 @@
         <item>運動 Sports</item>
     </string-array>
 
+    <string-array name="Spinner_food">
+        <item>早餐 Breakfask</item>
+        <item>午餐 Lunch</item>
+        <item>晚餐 Dinner</item>
+    </string-array>
+
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

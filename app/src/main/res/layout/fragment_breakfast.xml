@@ -8,15 +8,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Spinner
-            android:id="@+id/spinner_food"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20sp"
-            android:entries="@array/Spinner_food"/>
-
         <ImageButton
-            android:id="@+id/itaSalad_imgbt"
+            android:id="@+id/imageButton_imgbt"
             android:layout_width="match_parent"
             android:layout_height="314dp"
             android:layout_marginTop="60dp"

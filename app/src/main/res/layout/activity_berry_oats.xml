@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/berryOats_topic_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="莓果燕麥"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="35dp"/>
+
+
+        <ImageView
+            android:id="@+id/berryOats_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/berryoats"
+            android:layout_marginTop="-130dp"/>
+
+        <TextView
+            android:id="@+id/berryOats_intro_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:text="健康吃燕麥3大原則
+1.燕麥是取代「主食」，不是額外補充\n\n
+2.搭配富含蛋白質飲品，營養更加分\n
+建議，可以加點牛奶、豆漿，或和小編一樣杏仁飲品\n\n
+3.攝取多纖維，應該要喝更多水\n
+膳食纖維的每日建議量為25至35克，\n如果過量，會影響體內礦物質如鈣、鐵、鋅的吸收，也會導致便祕\n\n一天吃進燕麥的量不超過一碗飯，\n另外加上蔬果，膳食纖維就足夠了。\n而水和纖維是互相作用的好朋友，\n建議一天攝取水的量要達到「體重乘以.30cc的水」，\n為了促進腸胃蠕動，一定要多喝水。\n\n\n"
+            />
+
+
+    </FrameLayout>
+</ScrollView>

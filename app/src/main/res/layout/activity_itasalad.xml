@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/itasalad_topic_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="義式沙拉"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="35dp"/>
+
+
+        <ImageView
+            android:id="@+id/itasalad_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/itasalad" />
+
+        <TextView
+            android:id="@+id/itasalad_intro_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:text="製作原則以體積來度量，大約是油：醋 = 3：1 至2：1 左右，加些鹽跟胡椒調味即成，實際味道可以自己再調整。
+            \n\n材料Ingredients：\n
+            紅酒醋：65g\n
+            橄欖油：125g\n
+            芥末醬：3g\n
+            鹽巴：8g\n
+            胡椒：適量\n
+            糖：適量\n\n作法Directions：\n
+1. 油跟水/ 醋是無法相容的，在沒有乳化劑參戰的情況下\n     油則是極少量、幾滴幾滴地先加入，\n     然後先把這幾滴油打散，打得愈細愈好\n
+
+2. 把油分成三等份加入，第一部分以極少量的方式加入，\n       幾滴打散後再加幾滴，這一批油是成敗關鍵，一定要有耐心\n       第二個1/3 的油就可以一小匙一小匙地加入\n       完成之後，最後1/3 的油可以邊攪拌邊加入。\n\n
+
+TIPS:\n
+1.   橄欖油-->特級冷壓初榨-->未精煉的橄欖油(個性遞進)\n
+2.   通常要用紅酒醋或白酒醋來製作油醋醬\n水果醋比較常見，先用水果醋來製作\n\n
+易犯錯誤Common Error：\n
+完成的靜置5～10分鐘後，最後還是會油水分離，心血白費。
+
+
+" />
+
+
+    </FrameLayout>
+</ScrollView>

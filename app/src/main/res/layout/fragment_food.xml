@@ -5,18 +5,19 @@
     android:layout_height="match_parent"
     tools:context=".fragments.FoodFragment">
 
-    <RelativeLayout
+    <Spinner
+        android:id="@+id/spinner_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:entries="@array/Spinner_food"
+        />
+
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:text="Food"
-            android:textColor="@android:color/black"
-            android:textSize="24sp"/>
-    </RelativeLayout>
+    </LinearLayout>
 
 </FrameLayout>

@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:textColor="@android:color/white"
         android:textSize="25dp"
-        android:text="Calendar"
+        android:text="來簽到囉！"
         android:layout_gravity="center"
         android:layout_marginTop="48dp"/>
 

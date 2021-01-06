@@ -32,6 +32,7 @@
             android:textSize="25dp"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="390dp"
+            android:textColor="@android:color/black"
             />
 
         <ImageButton
@@ -48,7 +49,8 @@
             android:text="莓果燕麥"
             android:textSize="25dp"
             android:layout_marginLeft="50dp"
-            android:layout_marginTop="785dp"/>
+            android:layout_marginTop="785dp"
+            android:textColor="@android:color/black"/>
 
     </FrameLayout>>
 
